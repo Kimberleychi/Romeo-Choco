@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost: 100, 200, 300, 400, 500, 600, 700| Playfair: 100, 200, 300, 400, 500, 600, 700');
+/*-------------FONT CDN added INTENT check this----------------*/
+
+/* ---------------------------------------BODY----------------------------------*/
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: Jost, sans-serif;
+    color: #777777;
+}
+
+/*---NAVIGATION SECTION*/
+/*To stick to the top of the page at all times. No padding at the top or left and sits in front by z-index 5*/
+#nav-bar{ 
+position: sticky;
+top: 0; 
+left: 0;
+z-index: 5;
+}
+
+/*Navigation bar customised using CSS to make height of my logo bigger on the page*/
+.navbar-brand img {
+    height: 200px; 
+    padding-left: 0px;
+}
