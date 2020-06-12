@@ -2,18 +2,19 @@
 /*-------------FONT CDN added INTENT check this----------------*/
 
 /* ---------------------------------------BODY----------------------------------*/
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+
+html body{
+    height: 100%;/*Web page takes up full height*/
+    weight:100%;/*Web page takes up full width*/
+
 }
 
 body {
-    font-family: Jost, sans-serif;
-    color: #777777;
+    font-family: Jost, sans-serif;  /*Overall Font--*/
+    color: #777777; /*Overall Colour throughout document---*/
 }
 
-/*---NAVIGATION SECTION*/
+/*----------------------------------NAVIGATION SECTION-------------------*/
 /*To stick to the top of the page at all times. No padding at the top or left and sits in front by z-index 5*/
 #nav-bar{ 
 position: sticky;
@@ -45,5 +46,25 @@ z-index: 5;
 #nav-bar ul li a:hover{
     color: green!important;
 }
+
+/* ------Background image added and styled using CSS-----------------------------*/
+
+
+/*---------------------------------------About Me 2 Columns------------------------------------------*/
+
+/*-------------------------------------------Features------------------------------------------------*/
+
+/*-------------------------2 Columns Free Delivery & Discount Code Added-----------------------------*/
+
+/*-- Romes Closet section created to include Jumbatron taken from Bootstrap and edited in HTML & CSS and links to Dog Boutique Store INTENTION  --->*/
+        
+/*-------------------------Follow me on insta either a BUTTON or Flashing Icon-------------------------*/
+
+/*-----3 Pictures of example merchandise, Collars Tshirts or Hoodies either as a card or as normal-----*/
+
+/*------------------------------------------Speech Marks-----------------------------------------------*/
+
+/*---------------------------------------FOOTER Social Media links & COPYWRIGHT -----------------------*/
+
 
 
