@@ -9,14 +9,15 @@
 <title>Romeo User Frontend Project</title>
 </head>
 <body>
-  <section id="nav-bar">
+<!------Navagaition Bar taken from Boostrap customised by making it transparent, added logo and link names changed as appropriate------------------------------------>
+<section id="nav-bar">
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"> <!----Customised by making it transparent & Fixed Top-->
-  <a class="navbar-brand" href="#"><img src="assests/img/Romes Closet_Logo-D8.png"></a><!---LOGO ADDED -->
+  <a class="navbar-brand" href="#"><img src="assests/img/Romes Closet_Logo-D8.png"></a><!---LOGO ADDED & Customised in CSS-- -->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon">Toggle navigation</span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ml-auto">
+  </button>  <!---------Button that appears on smaller sreen-->
+  <div class="collapse navbar-collapse" id="navbarNav"> <!---Collapse Button-->
+    <ul class="navbar-nav ml-auto"><!---Added to push items to the right-->
       <li class="nav-item active">
         <a class="nav-link" href="#">Home</a></li>
       <li class="nav-item">
@@ -36,14 +37,14 @@
 <!---NAVAGATION BAR END---> 
 <!--------------------------Background Home Page image added and edited in CSS --------------->
 <div id="main-image"><!-------- /.callout INTENTION need to make it mobile responsive ------------------->
-  <div class="main-cover-text">
+  <div class="main-cover-text"> <!---Text Overlay--->
     <h1>A Unique Dog Influencer</h1>
     <h2>Available for events, shows, advertising and marketing</h2>
   </div>
   </div>
 <!-------------------------Background Home Page END----------------------------------> 
 <!-----Bootstrap Grid Layout Used edited in HTML & CSS------------------------>
-<!--About Section-->
+<!--About Section 2 columns-->
 <div class="padding"> 
  <div class="container">
   <div class="row">
@@ -51,7 +52,8 @@
       <h2>About Me</h2>
       <p class="lead"></p>
     </div>
-    <div class="col-sm-6"><!---2 columns-->
+    <div class="col-sm-6 text-center">
+      <h2>Measurements</h2>
       <img src="assests/img/size guide.jpg">
     </div>
   </div>
@@ -74,6 +76,8 @@
     <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"> <!---Displays-Large 4/Medium 4/Small 2/ExtraSmall Screen 1-->
         <img src="assests/img/jbw.jpg" class="img-responsive">
     </div>
+</div>
+</div>
 <!--Features Closed--->
 <!--2 Columns Free Delivery & Discount Code Added -->
 <div class="padding"> 
@@ -103,20 +107,37 @@
   <div class="row">
     <div class="col-12">Follow me on insta</div><!--Full Page Column-->
   </div>
+  </div>
+</div>
 <!---3 Pictures of example merchandise, Collars Tshirts or Hoodies either as a card or as normal-->
 <div class="row">
-            <div class="column">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><!---Displays-Large 3/Medium 3/Small 2/ExtraSmall Screen 1-->
                  <img src="assests/img/romeo.jpeg" alt="Romeo" style="width:100%">
             </div>
-        <div class="column">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><!---Displays-Large 3/Medium 3/Small 2/ExtraSmall Screen 1-->
                  <img src="assests/img/romeo.jpeg" alt="Romeo" style="width:100%">
             </div>
-        <div class="column">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12"><!---Displays-Large 3/Medium 3/Small 2/ExtraSmall Screen 1-->
                  <img src="assests/img/romeo.jpeg" alt="Romeo" style="width:100%">
             </div>
         </div>
 <!---Speech Marks-->
-<!--Social Media links in Footer-->
+<!---------------------------------------FOOTER Social Media links --->
+<footer>
+<ul class="social-networks">
+        <li><a href="https://en-gb.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/explore" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  <!-- Copyright -->
+<div class="footer-copyright text-center py-3">© 2020 Copyright:
+    <a href="https://romeo_teacup.com/"> www.romeo_teacup.com</a>
+  </div>
+</footer>
+<!-- Footer -->
+
+
 <!---JQUERY JAVASCRPIT, J POPPER JAVASCRIPT, BOOTSTRAP JAVASCRIPT CDN ADDED FROM BOOTSTRAP--------->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>   
