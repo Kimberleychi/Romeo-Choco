@@ -49,6 +49,12 @@ z-index: 5;
 
 /* ------Background image added and styled using CSS-----------------------------*/
 
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url("https://thehappypuppysite.com/wp-content/uploads/2019/05/cute-dog-quotes-HP-long.jpg") no-repeat center center;
+    background-size: cover;
+}
 
 /*---------------------------------------About Me 2 Columns------------------------------------------*/
 
