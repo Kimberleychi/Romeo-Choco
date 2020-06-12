@@ -25,14 +25,14 @@ z-index: 5;
 
 /*Navigation bar customised using CSS to make height of my logo bigger on the page*/
 .navbar-brand img {
-    height: 200px; 
+    height: 100px; 
     padding-left: 0px;
 }
 
 /*Navigation link items arranged in the Navbar to provide enough room visually*/
 .navbar-nav li{
   padding:0, 30px;
-  margin-left:15px;
+  margin-left:50px;
   margin-right:15px;
 }
 
@@ -100,27 +100,52 @@ hero-outer {
 
 
     bottom: 30px;
-    left: 410px;
+    left: 290px;
 
     position: absolute;
 }
 /*---------------------------------------About Me 2 Columns------------------------------------------*/
 .padding {
-    padding: 60px 0; /*Padding top & bottom set to and bottom set so all sections have same ratio layout between sections*/
+    padding: 40px 0; /*Padding top & bottom set to and bottom set so all sections have same ratio layout between sections*/
 }
 
-.padding img { /*Each image in every section of page has maxiumum width of 100%*/
+#about{
+    background-color: white;
+    background-size: contain;
+    padding-top: 1%;
+    position: center;
+}
+
+
+
+#features{
+    position: center;
+    padding-right: 1%;
+}
+
+#container-fluid img {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#container-fluid  {
     width: 100%;
 }
-
 /*----------------------------ROMES CLOSET Jumbotron Bootstrap added and backgroung image added INTENTION-------------------------------*/
 .romes-closet{
     background-image: url('https://www.telegraph.co.uk/content/dam/Pets/spark/royal-canin/labrador-puppies-running-xlarge.jpg');
-    background-size: 1450px 700px;
+    background-size: 1650px 700px;
     background-repeat: no-repeat;
     background-position: center;
 
     bottom: 0px;
+    padding-bottom: 1%;
+}
+
+#insta h5{
+    text-align: center;
+    background: yellow;
+    padding: 0;
 }
 
 /*------------------------------------------FOOTER--------------------------------------------*/ 
