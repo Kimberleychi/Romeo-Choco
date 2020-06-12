@@ -11,7 +11,7 @@ html body{
 
 body {
     font-family: Jost, sans-serif;  /*Overall Font--*/
-    color: #777777; /*Overall Colour throughout document---*/
+    color: black; /*Overall Colour throughout document---*/
 }
 
 /*----------------------------------NAVIGATION SECTION-------------------*/
@@ -104,8 +104,50 @@ hero-outer {
 
     position: absolute;
 }
-
 /*---------------------------------------About Me 2 Columns------------------------------------------*/
+.padding {
+    padding: 60px 0; /*Padding top & bottom set to and bottom set so all sections have same ratio layout between sections*/
+}
+
+.padding img { /*Each image in every section of page has maxiumum width of 100%*/
+    width: 100%;
+}
+
+/*----------------------------ROMES CLOSET Jumbotron Bootstrap added and backgroung image added INTENTION-------------------------------*/
+.romes-closet{
+    background-image: url('https://www.telegraph.co.uk/content/dam/Pets/spark/royal-canin/labrador-puppies-running-xlarge.jpg');
+    background-size: 1450px 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    bottom: 0px;
+}
+
+/*------------------------------------------FOOTER--------------------------------------------*/ 
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    padding: 5% 5% 10% 5%;
+    color: white;
+}
+/*------------------------Social media links styled at the bottom of footer---------------------------*/
+.social-networks{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */;
+}
+
+.social-networks li {
+    display: inline
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: black;
+}
+
 
 /*-------------------------------------------Features------------------------------------------------*/
 
@@ -120,6 +162,5 @@ hero-outer {
 /*------------------------------------------Speech Marks-----------------------------------------------*/
 
 /*---------------------------------------FOOTER Social Media links & COPYWRIGHT -----------------------*/
-
 
 
