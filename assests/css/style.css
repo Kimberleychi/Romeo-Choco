@@ -17,7 +17,7 @@ body {
 /*----------------------------------NAVIGATION SECTION-------------------*/
 /*To stick to the top of the page at all times. No padding at the top or left and sits in front by z-index 5*/
 #nav-bar{ 
-position: sticky;
+position: fixed;
 top: 0; 
 left: 0;
 z-index: 5;
@@ -29,6 +29,10 @@ z-index: 5;
     padding-left: 0px;
 }
 
+.navbar-nav {
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
+}
 /*Navigation link items arranged in the Navbar to provide enough room visually*/
 .navbar-nav li{
   padding:0, 30px;
@@ -98,8 +102,7 @@ hero-outer {
     padding-right: 30px;
 
 
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
+    
 
 
     bottom: 30px;
@@ -118,6 +121,7 @@ hero-outer {
     padding-top: 1%;
     position: center;
 }
+
 /*-------------------------------------------Features------------------------------------------------*/
 #features h2 { /*----Heading-Alignment--*/
   text-align: center;
@@ -135,6 +139,10 @@ hero-outer {
 
 #container-fluid  {
     width: 100%;
+}
+
+.discount .lead{ /*Adjusted the text position in the discount code and free deivery buttons*/
+    padding-top: 10px;
 }
 /*-- Romes Closet Shop section created to include Jumbatron taken from Bootstrap and edited in HTML & CSS and links to Dog Boutique Store INTENTION  --->*/
 /*----------------------------ROMES CLOSET Jumbotron Bootstrap added and backgroung image added -------------------------------*/
@@ -158,18 +166,20 @@ hero-outer {
     color: white;
 }
 
-
 .h2 {
     text-align: center;
 }
-/*----------------------Instagram call out--------------*/
-#insta h2 { /*----Heading-Alignment--*/
-  text-align: center;
+
+/*---------------GALLERY PAGE 2---------------*/
+#photo{
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
 }
 
-#insta{
-    position: center;
-    padding-right: 8%;
+#photo img{
+    width: 100%;
 }
 /*------------------------------------------FOOTER Social Media links & COPYWRIGHT--------------------------------------------*/ 
 footer{
@@ -180,7 +190,6 @@ footer{
 /*------------------------Social media links styled at the bottom of footer---------------------------*/
 .social-networks{
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */;
     height: 100px;
 }
 
@@ -189,8 +198,8 @@ footer{
 }
 
 .social-networks i {
-    font-size: 260%;
-    margin: 1%;
+    font-size: 200%;
+    margin: 0;
     padding: 5%;
     color: black;
 }
