@@ -162,6 +162,15 @@ hero-outer {
 .h2 {
     text-align: center;
 }
+/*----------------------Instagram call out--------------*/
+#insta h2 { /*----Heading-Alignment--*/
+  text-align: center;
+}
+
+#insta{
+    position: center;
+    padding-right: 8%;
+}
 /*------------------------------------------FOOTER Social Media links & COPYWRIGHT--------------------------------------------*/ 
 footer{
     height: 100px;
