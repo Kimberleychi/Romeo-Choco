@@ -39,7 +39,10 @@ z-index: 5;
 /*Navigation link items arranged in the Navbar aligned to the right*/
 .navbar-nav li a{
     float: right;
-    text-align: left;
+    text-align: center;
+}
+#nav-bar ul li a{
+    color: #000;
 }
 
 /*Navigation link items animation added to change colours when the mouse covers it*/
@@ -62,7 +65,7 @@ z-index: 5;
 
 hero-outer {
     height: 790px; /*same as hero image*/
-    width: 100%; /*same as hero image*/
+    width: 1100%; /*same as hero image*/
     overflow: hidden;
     position: relative;
 }
@@ -115,15 +118,17 @@ hero-outer {
     padding-top: 1%;
     position: center;
 }
-
-
+/*-------------------------------------------Features------------------------------------------------*/
+#features h2 { /*----Heading-Alignment--*/
+  text-align: center;
+}
 
 #features{
     position: center;
-    padding-right: 1%;
+    padding-right: 8%;
 }
 
-#container-fluid img {
+#container-fluid img { /*------Features Images of DDOUBLEE-----*/
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -131,35 +136,43 @@ hero-outer {
 #container-fluid  {
     width: 100%;
 }
-/*----------------------------ROMES CLOSET Jumbotron Bootstrap added and backgroung image added INTENTION-------------------------------*/
+/*-- Romes Closet Shop section created to include Jumbatron taken from Bootstrap and edited in HTML & CSS and links to Dog Boutique Store INTENTION  --->*/
+/*----------------------------ROMES CLOSET Jumbotron Bootstrap added and backgroung image added -------------------------------*/
 .romes-closet{
     background-image: url('https://www.telegraph.co.uk/content/dam/Pets/spark/royal-canin/labrador-puppies-running-xlarge.jpg');
-    background-size: 1650px 700px;
+    background-size: 1650px 650px;
     background-repeat: no-repeat;
     background-position: center;
 
     bottom: 0px;
-    padding-bottom: 1%;
+    padding:0;
 }
 
-#insta h5{
+.rome-container{
+    color: white;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
+}
+
+.rome-container #text-muted{ /*NOT FINISHED not cganging to white*/
+    color: white;
+}
+
+
+.h2 {
     text-align: center;
-    background: yellow;
-    padding: 0;
 }
-
-/*------------------------------------------FOOTER--------------------------------------------*/ 
+/*------------------------------------------FOOTER Social Media links & COPYWRIGHT--------------------------------------------*/ 
 footer{
     height: 100px;
     width: 100%;
-    background-color: blue;
     padding: 5% 5% 10% 5%;
-    color: white;
 }
 /*------------------------Social media links styled at the bottom of footer---------------------------*/
 .social-networks{
     text-align: center;
     background-color: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */;
+    height: 100px;
 }
 
 .social-networks li {
@@ -167,25 +180,17 @@ footer{
 }
 
 .social-networks i {
-    font-size: 160%;
+    font-size: 260%;
     margin: 1%;
     padding: 5%;
     color: black;
 }
-
-
-/*-------------------------------------------Features------------------------------------------------*/
-
-/*-------------------------2 Columns Free Delivery & Discount Code Added-----------------------------*/
-
-/*-- Romes Closet section created to include Jumbatron taken from Bootstrap and edited in HTML & CSS and links to Dog Boutique Store INTENTION  --->*/
-        
 /*-------------------------Follow me on insta either a BUTTON or Flashing Icon-------------------------*/
 
 /*-----3 Pictures of example merchandise, Collars Tshirts or Hoodies either as a card or as normal-----*/
 
 /*------------------------------------------Speech Marks-----------------------------------------------*/
 
-/*---------------------------------------FOOTER Social Media links & COPYWRIGHT -----------------------*/
+
 
 
