@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost: 100, 200, 300, 400, 500, 600, 700| Playfair: 100, 200, 300, 400, 500, 600, 700');
 /*-------------FONT CDN added INTENT check this----------------*/
-
 /* ---------------------------------------BODY----------------------------------*/
-
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
 html body{
     height: 100%;/*Web page takes up full height*/
     weight:100%;/*Web page takes up full width*/
@@ -21,6 +24,11 @@ position: fixed;
 top: 0; 
 left: 0;
 z-index: 5;
+}
+
+#navbarNav{ /*navbar is transparent but this container has opaque background*/
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
 }
 
 /*Navigation bar customised using CSS to make height of my logo bigger on the page*/
@@ -53,6 +61,8 @@ z-index: 5;
 #nav-bar ul li a:hover{
     color: green!important;
 }
+
+/*---------Menu Items-------------*/
 
 /* ------Background image added and styled using CSS-----------------------------*/
 
@@ -112,14 +122,26 @@ hero-outer {
 }
 /*---------------------------------------About Me 2 Columns------------------------------------------*/
 .padding {
-    padding: 40px 0; /*Padding top & bottom set to and bottom set so all sections have same ratio layout between sections*/
+    padding: 60px 0; /*Padding top & bottom set to and bottom set so all sections have same ratio layout between sections*/
 }
 
 #about{
-    background-color: white;
+    background-color: blue;
+    background-size: contain;
+    padding-top: 1%;
+    position: left;
+
+}
+
+#measurements{
+    background-color: yellow;
     background-size: contain;
     padding-top: 1%;
     position: center;
+}
+
+.measurements h1{
+    text-align: center;
 }
 
 /*-------------------------------------------Features------------------------------------------------*/
@@ -183,14 +205,15 @@ hero-outer {
 }
 /*------------------------------------------FOOTER Social Media links & COPYWRIGHT--------------------------------------------*/ 
 footer{
-    height: 100px;
+    height: 50px;
     width: 100%;
     padding: 5% 5% 10% 5%;
+    background: lightgrey
 }
 /*------------------------Social media links styled at the bottom of footer---------------------------*/
 .social-networks{
     text-align: center;
-    height: 100px;
+    height: 50px;
 }
 
 .social-networks li {
