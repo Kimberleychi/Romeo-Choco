@@ -62,7 +62,7 @@ I love everything about my culture, the food, clothing and music.I’m Nigerian 
     </div>
     <div class="col-sm-6 text-center">
     <h2>Measurements</h2>
-    <<p>Roses are red vioets are blue heres a few wise words from me </p>
+    <p>Roses are red vioets are blue heres a few wise words from me </p>
     <p>Roses are red vioets are blue heres a few wise words from me </p>
     <p>Roses are red vioets are blue heres a few wise words from me </p>
     <p>Roses are red vioets are blue heres a few wise words from me </p>
@@ -98,14 +98,30 @@ I love everything about my culture, the food, clothing and music.I’m Nigerian 
 <div id="discount"> 
  <div class="container-fluid">
   <div class="row">
-    <button class="col-sm-6 text-center"> 
-      <p class="lead"><strong>Delivery On All Orders Over £50</strong></p>
+  <button type="button" class="btn btn-default col-sm-6 text-center btn-lg" data-toggle="modal" data-target="#myModal"><strong>Free Delivery On All Orders Over £50</strong>
     </button>
-    <button class="col-sm-6 text-center btn-success">
-      <p class="lead"><strong>Click here to get DiscountCode(use MODAL POPUP)</strong></p>
+    <!-- Trigger the modal with a button -->
+    <button type="button" class="btn btn-success col-sm-6 text-center btn-lg" data-toggle="modal" data-target="#myModal">Click here to get an exclusive Discount Code<!----(use MODAL POPUP)-->
     </button>
+     <!-- Modal-->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Discount Code:<strong> ForeverRomeo</strong></h4>
+        </div>
+        <div class="modal-body">
+          <p>Use this discount code at the checkout on <strong>www.romescloset.com</strong> for <strong>20% off</strong></p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
   </div>
- </div>
+</div>
+</div>
 </div>
 <!---Free Delivery & Discount Code Added END-->
 <!-- Romes Closet section created to include Jumbatron taken from Bootstrap and edited in HTML & CSS and links to Dog Boutique Store INTENTION  ---------------> 

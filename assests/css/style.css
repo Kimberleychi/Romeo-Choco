@@ -151,12 +151,13 @@ hero-outer {
 
 #features{
     position: center;
-    padding-right: 8%;
+    padding-right: 12.5%;
 }
 
 #container-fluid img { /*------Features Images of DDOUBLEE-----*/
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%
 }
 
 #container-fluid  {
