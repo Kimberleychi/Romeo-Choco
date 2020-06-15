@@ -130,6 +130,8 @@ hero-outer {
     background-size: contain;
     padding-top: 1%;
     position: left;
+    font-style: italic;
+
 
 }
 
@@ -140,8 +142,8 @@ hero-outer {
     position: center;
 }
 
-.measurements h1{
-    text-align: center;
+#measurements li{
+    line-height: 37px;
 }
 
 /*-------------------------------------------Features------------------------------------------------*/
@@ -209,7 +211,8 @@ footer{
     height: 50px;
     width: 100%;
     padding: 5% 5% 12.5% 5%;
-    background: lightgrey
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.1); /* Black background with 0.5 opacity */
 }
 /*------------------------Social media links styled at the bottom of footer---------------------------*/
 .social-networks{
