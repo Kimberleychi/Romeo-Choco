@@ -208,13 +208,13 @@ hero-outer {
 footer{
     height: 50px;
     width: 100%;
-    padding: 5% 5% 10% 5%;
+    padding: 5% 5% 12.5% 5%;
     background: lightgrey
 }
 /*------------------------Social media links styled at the bottom of footer---------------------------*/
 .social-networks{
     text-align: center;
-    height: 50px;
+    height: 100px;
 }
 
 .social-networks li {
